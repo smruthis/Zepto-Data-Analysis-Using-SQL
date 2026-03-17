@@ -4,19 +4,6 @@ use zepto;
 
 drop table if exists zepto
 
-CREATE TABLE zepto (
-  sku_id int PRIMARY KEY,
-  category VARCHAR(120),
-  name VARCHAR(150) NOT NULL,
-  mrp NUMERIC(8,2),
-  discountPercent NUMERIC(5,2),
-  availableQuantity INTEGER,
-  discountedSellingPrice NUMERIC(8,2),
-  weightInGms INTEGER,
-  outOfStock bit,
-  quantity INTEGER
-);
-
 select * from zepto_v2;
 
 select count(*) from zepto_v2;
