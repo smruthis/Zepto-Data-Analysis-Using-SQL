@@ -39,6 +39,7 @@ It replicates how data analysts work with real-world messy data and transform it
 
 ## 🔧 Project Workflow
 
+- Tool used - Microsoft SQL Server
 - Created a database named as 'Zepto'
 - Imported the dataset
 
